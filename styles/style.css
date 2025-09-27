@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Pokemon', sans-serif;
+}
+@font-face {
+        font-family: 'Pokemon';
+        src: url(../fonts/pokemon.woff2) format(woff2);
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+html, body, main{
+    width: 100vw;
+}
+:root{
+    --fonte1: 'Pokemon', sans-serif;
+}
+header h1{
+    font-size: 2em;
+    text-align: center;
+}
+main{
+    display: flex;
+    gap: 1vw;
+    flex: 1;
+    box-sizing: border-box;
+}
+main div#map{
+    background-image: url(../images/b.png);
+    background-size: 133px 29px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 1em;
+    padding: 0px;
+}
