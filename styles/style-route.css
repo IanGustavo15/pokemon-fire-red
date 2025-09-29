@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+        font-family: 'Pokemon';
+        src: url(../fonts/pokemon.woff2) format(woff2);
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0.9em;
+    font-family: 'Pokemon', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+div{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.452);
+    display: inline-block;
+    margin: 5px 0px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+p{
+    display: block;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+img:hover{
+    animation: mover 0.3s infinite alternate;
+}
+@keyframes mover {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-5px, -5px);
+    }
+}

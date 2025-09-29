@@ -1,38 +1,78 @@
 @charset "UTF-8";
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Pokemon', sans-serif;
-}
 @font-face {
         font-family: 'Pokemon';
         src: url(../fonts/pokemon.woff2) format(woff2);
         font-weight: normal;
         font-style: normal;
-        font-display: swap;
-}
-html, body, main{
-    width: 100vw;
+        font-display: swap;}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0.9em;
+    font-family: 'Pokemon', sans-serif;
+    box-sizing: border-box;
 }
 :root{
     --fonte1: 'Pokemon', sans-serif;
 }
+html, body{
+    width: 100vw;
+}
+body{
+    background: black url(../images/background-home-1920x1080.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
 header h1{
     font-size: 2em;
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: #f8ca0d;
+      text-shadow: 
+        -3px -3px 0 #326196,
+         3px -3px 0 #326196,
+        -3px  3px 0 #326196,
+         3px  3px 0 #326196,
+        -3px  0px 0 #326196,
+         3px  0px 0 #326196,
+         0px -3px 0 #326196,
+         0px  3px 0 #326196;
+    }
+#menu{
+    background-color: rgb(65, 65, 65);
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
     text-align: center;
 }
-main{
-    display: flex;
-    gap: 1vw;
-    flex: 1;
-    box-sizing: border-box;
+#menu:hover{
+    background-color: white;
+    color: black;
 }
-main div#map{
-    background-image: url(../images/b.png);
-    background-size: 133px 29px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-size: 1em;
-    padding: 0px;
+menu{
+    display: none;
+}
+menu ul{
+    list-style-type: none;
+}
+menu ul > li > a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border: 1px solid gray
+}
+menu ul > li > a:hover{
+    background-color: lightgrey;
+}
+iframe{
+    display: block;
+    width: 90%;
+    margin: auto;
+    min-height: 85vh;
 }
