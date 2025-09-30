@@ -13,7 +13,36 @@
     font-family: 'Pokemon', sans-serif;
     box-sizing: border-box;
 }
-h1{
+html, body{
+    width: 100vw;
+}
+header a{
+    font-size: 2em;
+    display: block;
+    text-decoration: none;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-weight: bolder;
+    color: #f8ca0d;
+      text-shadow: 
+        -3px -3px 0 #326196,
+         3px -3px 0 #326196,
+        -3px  3px 0 #326196,
+         3px  3px 0 #326196,
+        -3px  0px 0 #326196,
+         3px  0px 0 #326196,
+         0px -3px 0 #326196,
+         0px  3px 0 #326196;
+    }
+header a:hover{
+    color: red;
+}
+body{
+    background: black url(../images/background-home-1920x1080.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+main h1{
     text-align: center;
     font-size: 1.1em;
     font-weight: bolder;
@@ -21,25 +50,31 @@ h1{
     background-color: rgba(255, 255, 255, 0.452);
 }
 div{
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.452);
+    padding: 0px 10px 10px 10px;
     display: inline-block;
+    background-image: url(../images/bordervertical.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin: 5px 0px;
+    height: 232px;
+    width: 145px;
+}
+p{
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    padding-left: 2px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(216, 216, 216);
 }
 img{
     display: block;
     margin: auto;
 }
-p{
-    display: block;
-    text-align: center;
-}
-a{
-    color: white;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px black;
-}
-img:hover{
+img{
     animation: mover 0.3s infinite alternate;
 }
 @keyframes mover {
