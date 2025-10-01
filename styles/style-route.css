@@ -51,6 +51,17 @@ main h1{
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.452);
 }
+h2{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+h2 img{
+    display: inline;
+    width: 22px;
+    height: 22px;
+    margin: 0px 10px;
+}
 div{
     padding: 0px 10px 10px 10px;
     display: inline-block;
@@ -58,8 +69,8 @@ div{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 5px 0px;
-    height: 232px;
-    width: 145px;
+    height: 231px;
+    width: 141px;
 }
 p{
     display: block;
@@ -72,11 +83,11 @@ a{
     text-decoration: none;
     text-shadow: 2px 2px 2px rgb(216, 216, 216);
 }
-img{
+div img{
     display: block;
     margin: auto;
 }
-img{
+div img{
     animation: mover 0.3s infinite alternate;
 }
 @keyframes mover {
