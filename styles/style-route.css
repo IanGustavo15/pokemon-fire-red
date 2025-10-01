@@ -56,6 +56,11 @@ h2{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.452);
 }
+h3{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(196, 6, 6, 0.452);
+}
 h2 img{
     display: inline;
     width: 22px;
