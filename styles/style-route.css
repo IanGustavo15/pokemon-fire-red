@@ -58,6 +58,7 @@ h2{
 }
 h3{
     margin: auto;
+    margin-bottom: 10px;
     text-align: center;
     background-color: rgba(196, 6, 6, 0.452);
 }
