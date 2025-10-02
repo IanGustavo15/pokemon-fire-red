@@ -24,9 +24,12 @@ body{
     background-size: cover;
     overflow-x: hidden;
 }
-header a{
-    font-size: 2em;
+header h1{
     display: block;
+    text-align: center;
+}
+header a{
+    font-size: 2em; 
     text-decoration: none;
     margin: 30px auto 30px auto;
     text-align: center;
