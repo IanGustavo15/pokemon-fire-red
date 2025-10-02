@@ -16,11 +16,14 @@
 html, body{
     width: 100vw;
 }
-header a{
-    font-size: 2em;
+header h1{
     display: block;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+header a{
+    font-size: 2em; 
     text-decoration: none;
-    margin: 10px auto 30px auto;
     text-align: center;
     font-weight: bolder;
     color: #f8ca0d;
@@ -36,8 +39,6 @@ header a{
     }
 header a:hover{
     color: red;
-    transform: translate(0, -10px);
-    transition: 0.4s;
 }
 body{
     background: black url(../images/background-home-1920x1080.jpg) no-repeat bottom center fixed;
