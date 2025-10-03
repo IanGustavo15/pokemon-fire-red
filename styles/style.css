@@ -72,3 +72,21 @@ main a:hover{
     font-size: 0.98em;
     padding-left: 4px;
 }
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 3px 0px;
+    background-color: #F2E9D8;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    color: #3FBFBF;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 0px black;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #4968A6;
+}
